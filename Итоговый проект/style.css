@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.Top_menu li{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Top_menu a{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.Top_menu a:hover{
+    color: aqua;
+}
+.about_me{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+img{
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.цитата{
+    display: flex;
+    margin-top: 30px;
+    font-family:Georgia;
+    justify-content: center;
+    align-items: center;
+}
+.glitch{
+    color: #fff;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+}
+h2{
+    margin-bottom: -30px;
+    margin-left: 20px;
+}
+.about_me,.picture,.text1{
+    display: flex;
+}
+.text1{
+    margin-left: 110px;
+    justify-content: space-between;
+    position: relative;
+    color:pink;
+}
+.spisok2{
+    margin-top: 50px;
+    position: absolute;
+    align-content: center;
+    justify-content: space-between;
+    display:inline-block;
+    right: 6cm;
+    color: white;
+    font-family:Cambria;
+}
+.card{
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px white;
+    overflow: hidden;
+}
+.begin,.begin2{
+height: 320px;
+width: 300px;
+border-radius: 3px;
+position: relative;
+}
+.begin3{
+    height: 320px;
+    width: 390px;
+    border-radius: 3px;
+    position: relative;
+}
+.way_of_champion{
+    display: flex;
+    justify-content:center;
+    height: 70vh;
+    align-items:center;
+    background:black;
+}
+.intro1,.intro2{
+    height: 110px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    transition: 5s;
+}
+.intro3{
+    height: 100px;
+    width: 390px;
+    padding:6px;
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    transition: 5s;
+}
+.iam{
+    margin: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+span{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover{
+    height: 300px;
+    top: 300px;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    bottom: -65%;
+}
+.imgfuture{
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 24cm;
+}
+.future{
+margin-top: 3cm;
+position: relative;
+display: block;
+margin-bottom: 2cm;
+}
+.zagolovok{
+    justify-content: center;
+   display: flex;
+   margin-top: 3cm;
+}
+.citata{
+    font-family: 'Aldrich', sans-serif;
+}
+h3{
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+}
+.what{
+    display: flex;
+  justify-content: center;
+}
+.text{
+    margin-left: 3cm;
+    margin-right: 20cm;
+    
+    position: absolute;
+    bottom: 2cm;
+}
+.spisok3{
+    justify-content: center;
+    margin-left: 2cm;
+    font-size: 25px;
+    font-style: italic;
+}
+.text5{
+    justify-content: space-between;
+    color: magenta;
+}
+.end{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
